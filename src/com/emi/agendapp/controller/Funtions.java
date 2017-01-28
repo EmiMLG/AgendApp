@@ -1,8 +1,8 @@
 package com.emi.agendapp.controller;
 
 import com.emi.agendapp.model.Command;
-import com.emi.agendapp.model.CommandParser;
-import com.emi.agendapp.view.CaseHelp;
+import com.emi.agendapp.manager.CommandParser;
+import com.emi.agendapp.view.Cases;
 import com.emi.agendapp.view.Prompt;
 import com.emi.agendapp.view.Welcome;
 
@@ -24,10 +24,10 @@ public class Funtions {
             switch (com){
 
                 case HELP:
-                    CaseHelp.printHelp();
+                    Cases.printHelp();
                     break;
                 case LIST:
-                    System.out.println("Esta es la lista de contactos");
+                    Cases.printList();
                     break;
                 case QUIT:
                     System.out.println("Salir");

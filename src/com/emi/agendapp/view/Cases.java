@@ -1,12 +1,22 @@
 package com.emi.agendapp.view;
 
-public class CaseHelp {
+import com.emi.agendapp.model.Contact;
+import com.emi.agendapp.model.List;
+
+import java.util.LinkedList;
+
+public class Cases {
     public static void printHelp(){
 
         System.out.println("Esto es la ayuda");
         System.out.println("[h] - Help\n" + "[q] - Quit\n" +
                 "[a] - Add\n" + "[d] - Delete\n" + "[u] - Unknown\n");
 
+
+    }
+
+    public static void printList(){
+        System.out.println("Mirando Agenda..");
 
     }
 }

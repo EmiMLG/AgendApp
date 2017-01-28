@@ -1,4 +1,6 @@
-package com.emi.agendapp.model;
+package com.emi.agendapp.manager;
+
+import com.emi.agendapp.model.Command;
 
 public class CommandParser {
 
