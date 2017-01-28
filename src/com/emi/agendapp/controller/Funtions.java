@@ -2,6 +2,7 @@ package com.emi.agendapp.controller;
 
 import com.emi.agendapp.model.Command;
 import com.emi.agendapp.model.CommandParser;
+import com.emi.agendapp.view.CaseHelp;
 import com.emi.agendapp.view.Prompt;
 import com.emi.agendapp.view.Welcome;
 
@@ -23,7 +24,7 @@ public class Funtions {
             switch (com){
 
                 case HELP:
-                    System.out.println("Esta es la ayuda");
+                    CaseHelp.printHelp();
                     break;
                 case LIST:
                     System.out.println("Esta es la lista de contactos");
