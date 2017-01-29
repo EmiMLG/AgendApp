@@ -7,9 +7,11 @@ public class List {
     private LinkedList<Contact> list = new LinkedList<>();
 
     public void print(){
-        for(Contact contact: list){
+       /* for(Contact contact: list){
             System.out.println(contact.getName() + contact.getPhone() );
-        }
+
+        }*/
+        System.out.println("Emi");
     }
     public void add(Contact contact){
         this.list.add(contact);
