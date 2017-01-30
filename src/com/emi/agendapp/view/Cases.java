@@ -19,11 +19,6 @@ public class Cases {
         List prueba = new List();
         prueba.print();
 
-
-
-
-
-
-
     }
+
 }
