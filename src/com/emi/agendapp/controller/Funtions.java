@@ -17,6 +17,7 @@ public class Funtions {
         boolean end = false;
 
         while (!end) {
+            Prompt.print();
 
             String command = Prompt.read();
             Command com = CommandParser.parse(command);
