@@ -16,10 +16,10 @@ public class List {
 
         }
     }
-    public static void add(){
-        System.out.println("Nombre: ");
+    public static void insert(){
+        System.out.print("Nombre: ");
         String nameContact = Prompt.read();
-        System.out.println("Teléfono: ");
+        System.out.print("Teléfono: ");
         String phoneContact = Prompt.read();
 
         Contact contact = new Contact(nameContact, phoneContact);
@@ -33,14 +33,11 @@ public class List {
         return list.size() == 0;
     }
 
-    public LinkedList<Contact> getList(){
+    public static LinkedList<Contact> getList() {
         return list;
     }
 
-
-
-
-
-
-
+    public static void setList(LinkedList<Contact> list) {
+        List.list = list;
+    }
 }

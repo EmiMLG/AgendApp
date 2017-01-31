@@ -3,6 +3,8 @@ package com.emi.agendapp.manager;
 import com.emi.agendapp.model.Contact;
 import com.emi.agendapp.model.List;
 
+import java.util.Scanner;
+
 public class ContactsManager {
 
     public static void add(Contact contact, List list){
@@ -11,11 +13,6 @@ public class ContactsManager {
             System.out.println("Lista vacía");
             return;
         }
-
-
-
-
-
     }
 
 }
