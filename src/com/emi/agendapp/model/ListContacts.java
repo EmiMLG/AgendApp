@@ -10,7 +10,7 @@ public class ListContacts {
 
     public static void print(){
         for(Contact contact: list){
-            System.out.println(ListContacts.list.indexOf(contact) + contact.getName()+contact.getPhone());
+            System.out.println("(" + ListContacts.list.indexOf(contact)+ ")" + " - " + contact.getName()+ " - " + contact.getPhone());
 
         }
     }
@@ -23,7 +23,7 @@ public class ListContacts {
         Contact contact = new Contact(nameContact, phoneContact);
         list.add(contact);
 
-        System.out.println("Contacto guardado");
+        System.out.println("Contacto añadido en tu agenda");
 
     }
 
