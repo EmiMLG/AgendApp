@@ -2,9 +2,12 @@ package com.emi.agendapp.controller;
 
 import com.emi.agendapp.model.Command;
 import com.emi.agendapp.manager.CommandParser;
+import com.emi.agendapp.model.List;
 import com.emi.agendapp.view.Cases;
 import com.emi.agendapp.view.Prompt;
 import com.emi.agendapp.view.Welcome;
+
+import java.util.Scanner;
 
 public class Funtions {
 
@@ -17,12 +20,12 @@ public class Funtions {
         boolean end = false;
 
         while (!end) {
-            Prompt.print();
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("Opcion: ");
+            String opcion = scanner.nextLine();
+            Command opcionCommand = CommandParser.parse(opcion);
 
-            String command = Prompt.read();
-            Command com = CommandParser.parse(command);
-
-            switch (com){
+            switch (opcionCommand){
 
                 case HELP:
                     Cases.printHelp();
@@ -36,13 +39,13 @@ public class Funtions {
                     System.exit(0);
                     break;
                 case ADD:
-                    System.out.println("Añade un contacto");
+                    List.insert();
                     break;
                 case DELETE:
                     System.out.println("Borra un contacto");
                     break;
                 case UNKNOWN:
-                    System.out.println("Desconocido");
+                    System.out.println("Pulsa [H] para obtener ayuda");
                     break;
             }
 
