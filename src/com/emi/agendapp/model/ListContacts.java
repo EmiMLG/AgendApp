@@ -4,15 +4,13 @@ import com.emi.agendapp.view.Prompt;
 
 import java.util.LinkedList;
 
-public class List {
+public class ListContacts {
 
     private static LinkedList<Contact> list = new LinkedList<>();
 
-
-
     public static void print(){
         for(Contact contact: list){
-            System.out.println(List.list.indexOf(contact) + contact.getName()+contact.getPhone());
+            System.out.println(ListContacts.list.indexOf(contact) + contact.getName()+contact.getPhone());
 
         }
     }
@@ -33,11 +31,7 @@ public class List {
         return list.size() == 0;
     }
 
-    public static LinkedList<Contact> getList() {
+    public LinkedList<Contact>getListContact() {
         return list;
-    }
-
-    public static void setList(LinkedList<Contact> list) {
-        List.list = list;
     }
 }

@@ -1,14 +1,18 @@
 package com.emi.agendapp.controller;
 
+import com.emi.agendapp.manager.ContactsManager;
 import com.emi.agendapp.model.Command;
 import com.emi.agendapp.manager.CommandParser;
-import com.emi.agendapp.model.List;
+import com.emi.agendapp.model.Contact;
+import com.emi.agendapp.model.ListContacts;
 import com.emi.agendapp.view.Cases;
 import com.emi.agendapp.view.Welcome;
 
 import java.util.Scanner;
 
 public class Funtions {
+
+    ListContacts listContacts = new ListContacts();
 
 
     public Funtions(){
@@ -38,10 +42,10 @@ public class Funtions {
                     System.exit(0);
                     break;
                 case ADD:
-                    List.insert();
+                    ListContacts.insert();
                     break;
                 case DELETE:
-                    System.out.println("Borra un contacto");
+                    ContactsManager.delete(listContacts);
                     break;
                 case UNKNOWN:
                     System.out.println("Pulsa [H] para obtener ayuda");

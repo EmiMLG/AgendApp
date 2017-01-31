@@ -1,7 +1,6 @@
 package com.emi.agendapp.view;
 
-import com.emi.agendapp.model.Contact;
-import com.emi.agendapp.model.List;
+import com.emi.agendapp.model.ListContacts;
 
 public class Cases {
     public static void printHelp(){
@@ -16,7 +15,7 @@ public class Cases {
     public static void printList(){
         System.out.println("Mirando Agenda..");
 
-        List prueba = new List();
+        ListContacts prueba = new ListContacts();
         prueba.print();
 
     }
