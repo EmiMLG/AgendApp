@@ -4,7 +4,6 @@ import com.emi.agendapp.model.Command;
 import com.emi.agendapp.manager.CommandParser;
 import com.emi.agendapp.model.List;
 import com.emi.agendapp.view.Cases;
-import com.emi.agendapp.view.Prompt;
 import com.emi.agendapp.view.Welcome;
 
 import java.util.Scanner;
@@ -21,7 +20,7 @@ public class Funtions {
 
         while (!end) {
             Scanner scanner = new Scanner(System.in);
-            System.out.println("Opcion: ");
+            System.out.println("Bienvenido a tu agenda, elige una opción: ");
             String opcion = scanner.nextLine();
             Command opcionCommand = CommandParser.parse(opcion);
 
