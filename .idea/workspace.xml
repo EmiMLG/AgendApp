@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a19e2770-5793-4b59-a7e9-345663d741a3" name="Default" comment="" />
+    <list default="true" id="a19e2770-5793-4b59-a7e9-345663d741a3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/emi/agendapp/manager/ContactsManager.java" afterPath="$PROJECT_DIR$/src/com/emi/agendapp/manager/ContactsManager.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,13 +20,16 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="AgendApp" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Funtions.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/emi/agendapp/controller/Funtions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="51" column="57" lean-forward="false" selection-start-line="51" selection-start-column="57" selection-end-line="51" selection-end-column="57" />
+            <state relative-caret-position="918">
+              <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,21 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListContacts.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/emi/agendapp/model/ListContacts.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="25" column="57" lean-forward="false" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Cases.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/emi/agendapp/view/Cases.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            <state relative-caret-position="323">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -57,8 +53,12 @@
             <state relative-caret-position="272">
               <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
               <folding>
-                <element signature="e#310#311#0" expanded="true" />
-                <element signature="e#342#343#0" expanded="true" />
+                <element signature="e#243#244#0" expanded="false" />
+                <element signature="e#270#271#0" expanded="false" />
+                <element signature="e#374#375#0" expanded="false" />
+                <element signature="e#402#403#0" expanded="false" />
+                <element signature="e#444#445#0" expanded="false" />
+                <element signature="e#478#479#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -74,26 +74,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReadContacts.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/emi/agendapp/util/ReadContacts.java">
+      <file leaf-file-name="ContactsManager.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/emi/agendapp/manager/ContactsManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="340">
+              <caret line="25" column="40" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="40" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContactsManager.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/emi/agendapp/manager/ContactsManager.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/emi/agendapp/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -559,7 +555,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -571,13 +567,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3840246" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2714724" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22390318" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20347957" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24886535" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -651,8 +647,12 @@
         <state relative-caret-position="51">
           <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
           <folding>
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="false" />
+            <element signature="e#270#271#0" expanded="false" />
+            <element signature="e#374#375#0" expanded="false" />
+            <element signature="e#402#403#0" expanded="false" />
+            <element signature="e#444#445#0" expanded="false" />
+            <element signature="e#478#479#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -665,21 +665,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/emi/agendapp/model/ListContacts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="35" column="49" lean-forward="false" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/emi/agendapp/model/ListContacts.java" />
     <entry file="file://$PROJECT_DIR$/src/com/emi/agendapp/manager/ContactsManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -707,20 +698,17 @@
         <state relative-caret-position="102">
           <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
           <folding>
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="false" />
+            <element signature="e#270#271#0" expanded="false" />
+            <element signature="e#374#375#0" expanded="false" />
+            <element signature="e#402#403#0" expanded="false" />
+            <element signature="e#444#445#0" expanded="false" />
+            <element signature="e#478#479#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/emi/agendapp/model/ListContacts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/emi/agendapp/model/ListContacts.java" />
     <entry file="file://$PROJECT_DIR$/src/com/emi/agendapp/view/Cases.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -764,27 +752,22 @@
         <state relative-caret-position="306">
           <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
           <folding>
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="false" />
+            <element signature="e#270#271#0" expanded="false" />
+            <element signature="e#374#375#0" expanded="false" />
+            <element signature="e#402#403#0" expanded="false" />
+            <element signature="e#444#445#0" expanded="false" />
+            <element signature="e#478#479#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/emi/agendapp/model/ListContacts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/emi/agendapp/model/ListContacts.java" />
     <entry file="file://$PROJECT_DIR$/src/com/emi/agendapp/manager/ContactsManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -819,27 +802,22 @@
         <state relative-caret-position="136">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="false" />
+            <element signature="e#270#271#0" expanded="false" />
+            <element signature="e#374#375#0" expanded="false" />
+            <element signature="e#402#403#0" expanded="false" />
+            <element signature="e#444#445#0" expanded="false" />
+            <element signature="e#478#479#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/emi/agendapp/model/ListContacts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/emi/agendapp/model/ListContacts.java" />
     <entry file="file://$PROJECT_DIR$/src/com/emi/agendapp/manager/ContactsManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -874,27 +852,22 @@
         <state relative-caret-position="136">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="false" />
+            <element signature="e#270#271#0" expanded="false" />
+            <element signature="e#374#375#0" expanded="false" />
+            <element signature="e#402#403#0" expanded="false" />
+            <element signature="e#444#445#0" expanded="false" />
+            <element signature="e#478#479#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/emi/agendapp/model/ListContacts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/emi/agendapp/model/ListContacts.java" />
     <entry file="file://$PROJECT_DIR$/src/com/emi/agendapp/manager/ContactsManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -937,8 +910,12 @@
         <state relative-caret-position="153">
           <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="false" />
+            <element signature="e#270#271#0" expanded="false" />
+            <element signature="e#374#375#0" expanded="false" />
+            <element signature="e#402#403#0" expanded="false" />
+            <element signature="e#444#445#0" expanded="false" />
+            <element signature="e#478#479#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -947,9 +924,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -970,14 +945,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/emi/agendapp/controller/ListManager.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/emi/agendapp/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/emi/agendapp/view/Welcome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1005,24 +972,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/emi/agendapp/util/ReadContacts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/emi/agendapp/model/ListContacts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="25" column="57" lean-forward="false" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/emi/agendapp/util/ReadContacts.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/emi/agendapp/model/ListContacts.java" />
     <entry file="file://$PROJECT_DIR$/src/com/emi/agendapp/view/Prompt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1039,37 +990,47 @@
         <state relative-caret-position="272">
           <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
           <folding>
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="false" />
+            <element signature="e#270#271#0" expanded="false" />
+            <element signature="e#374#375#0" expanded="false" />
+            <element signature="e#402#403#0" expanded="false" />
+            <element signature="e#444#445#0" expanded="false" />
+            <element signature="e#478#479#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/emi/agendapp/view/Cases.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/emi/agendapp/controller/Funtions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="51" column="57" lean-forward="false" selection-start-line="51" selection-start-column="57" selection-end-line="51" selection-end-column="57" />
+        <state relative-caret-position="918">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/emi/agendapp/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/emi/agendapp/manager/ContactsManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="340">
+          <caret line="25" column="40" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
