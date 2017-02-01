@@ -6,8 +6,9 @@ public class Cases {
     public static void printHelp(){
 
         System.out.println("Esto es la ayuda");
-        System.out.println("[h] - Help\n" + "[q] - Quit\n" +
-                "[a] - Add\n" + "[d] - Delete\n");
+        System.out.println("[h] - Help\n" + "☠[q] - Quit☠\n" +
+                "✐[a] - Add✐\n" + "☰[l] - list☰\n"
+                + "✘[d] - Delete✘\n");
 
 
     }

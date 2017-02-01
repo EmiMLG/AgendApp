@@ -23,7 +23,7 @@ public class ListContacts {
         Contact contact = new Contact(nameContact, phoneContact);
         list.add(contact);
 
-        System.out.println("Contacto añadido en tu agenda");
+        System.out.println("Contacto añadido en tu agenda\n\n\n");
 
     }
 
