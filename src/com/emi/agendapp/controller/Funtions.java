@@ -50,27 +50,13 @@ public class Funtions {
                 case DELETE:
                     System.out.println("Has elegido, BORRAR UN CONTACTO");
                     ContactsManager.delete(listContacts);
-                    System.out.println("Contacto borrado");
                     break;
 
                 case UNKNOWN:
                     System.out.println("Comando desconocido, pulsa [H] para obtener ayuda");
                     break;
             }
-
-
-
-
-
-
-
         }
     }
-
-
-
-
-
-
 
     }

@@ -1,21 +1,26 @@
 package com.emi.agendapp.manager;
 
 import com.emi.agendapp.model.ListContacts;
-import com.emi.agendapp.view.Prompt;
 
 import java.util.Scanner;
 
 public class ContactsManager {
 
-    public static void delete(ListContacts contacts){
+    public static void delete(ListContacts contacts) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Introduce Position");
 
-        String position = scanner.nextLine();
+        int position = scanner.nextInt();
 
-        contacts.getListContact().remove(Integer.parseInt(position));
+        if (position >= 0 && position < contacts.getListContact().size()) {
 
+            contacts.getListContact().remove(position);
+            System.out.println("Contacto borrado");
+        }else {
+            System.out.println("No hay contacto en esta posición");
         }
+    }
+
 
 }
