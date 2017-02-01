@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Prompt {
 
     public static void print(){
-        System.out.println("-->");
+        System.out.print("-->");
     }
 
     public static String read(){

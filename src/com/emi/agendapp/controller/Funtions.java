@@ -5,6 +5,7 @@ import com.emi.agendapp.manager.ContactsManager;
 import com.emi.agendapp.model.Command;
 import com.emi.agendapp.model.ListContacts;
 import com.emi.agendapp.view.Cases;
+import com.emi.agendapp.view.Prompt;
 import com.emi.agendapp.view.Welcome;
 
 import java.util.Scanner;
@@ -22,7 +23,8 @@ public class Funtions {
 
         while (!end) {
             Scanner scanner = new Scanner(System.in);
-            System.out.println(" ☰☰☰☰☰ ☎ Bienvenido a AgendApp ☎ ☰☰☰☰☰ \n ELIGE UNA OPCIÓN\n Pulsa [H] para obtener ayuda");
+            System.out.println(" \n\n ☰☰☰☰☰ ☎ Bienvenido a AgendApp ☎ ☰☰☰☰☰ \n ELIGE UNA OPCIÓN\n Pulsa [H] para obtener ayuda");
+            Prompt.print();
             String opcion = scanner.nextLine();
             Command opcionCommand = CommandParser.parse(opcion);
 
