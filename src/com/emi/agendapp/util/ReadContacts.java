@@ -1,21 +1,15 @@
 package com.emi.agendapp.util;
 
-import com.emi.agendapp.model.Contact;
-
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
 public class ReadContacts {
 
-    public void createFile(String file, LinkedList<Contact> arrData)
+    public static void createFile(String file, List<String> arrData)
             throws IOException {
 
-        FileWriter writer = new FileWriter("agenda.txt");
+        FileWriter writer = new FileWriter(file);
 
         int size = arrData.size();
 
@@ -28,12 +22,15 @@ public class ReadContacts {
         }
         writer.close();
     }
-    /*public List<String> readFile(String fileName) {
+    public static List<String> readFile(String fileName) {
         FileReader fileReader = null;
         try {
             fileReader = new FileReader(fileName);
         } catch (FileNotFoundException e) {
-            e.printStackTrace();
+            System.out.println("La Agenda está vacía");
+        }
+        if (fileReader == null){
+            return null;
         }
         BufferedReader bufferedReader = new
                 BufferedReader(fileReader);
@@ -49,6 +46,6 @@ public class ReadContacts {
             e.printStackTrace();
         }
         return lines;
-    }*/
+    }
 
 }

@@ -1,8 +1,11 @@
 package com.emi.agendapp.model;
 
+import com.emi.agendapp.util.ReadContacts;
 import com.emi.agendapp.view.Prompt;
 
+import java.io.IOException;
 import java.util.LinkedList;
+import java.util.List;
 
 public class ListContacts {
 
@@ -25,6 +28,30 @@ public class ListContacts {
 
         System.out.println("Contacto añadido en tu agenda\n\n\n");
 
+    }
+
+    public static void saveContact() throws IOException {
+        List<String> contactname = new LinkedList<>();
+        List<String> contactphone = new LinkedList<>();
+
+        for (int i = 0; i < list.size() ; i++) {
+            contactname.add(list.get(i).getName());
+            contactphone.add(list.get(i).getPhone());
+        }
+        ReadContacts.createFile("NombresContactos.txt", contactname);
+        ReadContacts.createFile("TelefonosContactos.txt", contactphone);
+    }
+
+    public static void readContact(){
+        if (ReadContacts.readFile("NombresContactos.txt")!=null){
+            List nombreContactos = ReadContacts.readFile("NombresContactos.txt");
+            List telefonoContactos = ReadContacts.readFile("TelefonosContactos.txt");
+
+            for (int i = 0; i < nombreContactos.size(); i++) {
+                Contact contact = new Contact(nombreContactos.get(i).toString(), telefonoContactos.get(i).toString());
+                list.add(contact);
+            }
+        }
     }
 
     public boolean isEmpty(){

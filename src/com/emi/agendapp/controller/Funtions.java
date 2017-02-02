@@ -8,6 +8,7 @@ import com.emi.agendapp.view.Cases;
 import com.emi.agendapp.view.Prompt;
 import com.emi.agendapp.view.Welcome;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Funtions {
@@ -18,8 +19,9 @@ public class Funtions {
         Welcome.printWelcome();
     }
 
-    public void Cases(){
+    public void Cases() throws IOException {
         boolean end = false;
+        ListContacts.readContact();
 
         while (!end) {
             Scanner scanner = new Scanner(System.in);
@@ -40,6 +42,7 @@ public class Funtions {
                 case QUIT:
                     System.out.println("Saliendo, gracias por utilizar AgendApp");
                     end = true;
+                    ListContacts.saveContact();
                     System.exit(0);
                     break;
                 case ADD:
